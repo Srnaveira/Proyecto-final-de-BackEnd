@@ -1,0 +1,149 @@
+openapi: 3.0.1
+info:
+  title: API de Productos, Carrito y Secciones
+  description: API para la gestión de productos, carrito y secciones en la plataforma.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+tags:
+  - name: Tickets
+    description: Operaciones relacionadas con tickets.
+
+paths:
+  /tickets/{email}:
+    get:
+      tags:
+        - Tickets
+      summary: Obtener tickets por usuario
+      description: Devuelve todos los tickets asociados a un usuario en particular basado en su email.
+      parameters:
+        - name: email
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Email del usuario para obtener los tickets.
+      responses:
+        200:
+          description: Lista de tickets del usuario.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    code:
+                      type: string
+                      description: Código único del ticket.
+                    purchase_datetime:
+                      type: string
+                      format: date-time
+                      description: Fecha y hora de la compra.
+                    amount:
+                      type: number
+                      description: Monto total de la compra.
+                    products:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          idP:
+                            type: string
+                            description: ID del producto.
+                          quantity:
+                            type: number
+                            description: Cantidad del producto en el ticket.
+                          price:
+                            type: number
+                            description: Precio del producto.
+                    purchaser:
+                      type: string
+                      description: Email del comprador.
+        500:
+          description: Error interno del servidor.
+
+  /tickets:
+    get:
+      tags:
+        - Tickets
+      summary: Obtener todos los tickets (admin)
+      description: Devuelve una lista de todos los tickets.
+      responses:
+        200:
+          description: Lista de todos los tickets.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    code:
+                      type: string
+                      description: Código único del ticket.
+                    purchase_datetime:
+                      type: string
+                      format: date-time
+                      description: Fecha y hora de la compra.
+                    amount:
+                      type: number
+                      description: Monto total de la compra.
+                    products:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          idP:
+                            type: string
+                            description: ID del producto.
+                          quantity:
+                            type: number
+                            description: Cantidad del producto en el ticket.
+                          price:
+                            type: number
+                            description: Precio del producto.
+                    purchaser:
+                      type: string
+                      description: Email del comprador.
+        500:
+          description: Error interno del servidor.
+
+components:
+  schemas:
+    Ticket:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Código único del ticket.
+        purchase_datetime:
+          type: string
+          format: date-time
+          description: Fecha y hora de la compra.
+        amount:
+          type: number
+          description: Monto total de la compra.
+        products:
+          type: array
+          items:
+            type: object
+            properties:
+              idP:
+                type: string
+                description: ID del producto.
+              quantity:
+                type: number
+                description: Cantidad del producto en el ticket.
+              price:
+                type: number
+                description: Precio del producto.
+        purchaser:
+          type: string
+          description: Email del comprador.
+    TicketList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Ticket"

@@ -1,0 +1,35 @@
+<h1>Gestión de Usuarios</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Email</th>
+      <th>Rol Actual</th>
+      <th>Nuevo Rol</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each users}}
+    <tr>
+      <td>{{this.first_name}} {{this.last_name}}</td>
+      <td>{{this.email}}</td>
+      <td>{{this.rol}}</td>
+      <td>
+        {{#if this.documentsUploaded}}
+        <form action="/api/admin/premium/{{this._id}}" method="post">
+          <select name="newRole">
+            <option value="user" {{#if (eq this.rol "user")}}selected{{/if}}>User</option>
+            <option value="premium" {{#if (eq this.rol "premium")}}selected{{/if}}>Premium</option>
+            <option value="admin" {{#if (eq this.rol "admin")}}selected{{/if}}>Admin</option>
+          </select>
+          <button type="submit">Actualizar</button>
+        </form>
+        {{else}}
+        <span>No puedes cambiar el rol sin documentos subidos</span>
+        {{/if}}
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,31 @@
+<div>
+    <div>
+            <h1>
+                La compra fue Completada: el ticket es el {{this._id}}
+            </h1>
+    </div>
+    <div>
+            <h2>
+                le fecha de la compra fue:  {{this.purchase_datetime}}
+            </h2>
+    </div>
+    <div>
+            <h2>
+                le codigo de la compra es:  {{this.code}}
+            </h2>
+    </div>
+    <div>
+            <h2>
+                El  monto de la compra es:  {{this.amount}}
+            </h2>
+    </div>        
+    <div>
+            <h2>
+                El comprador es:  {{this.purchaser}}
+            </h2>           
+    </div>      
+</div>
+
+<form action="/api/carts/{{user.cartId}}/purchase/{{this.code}}" method="GET">
+        <button type="submit" style="padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin: 15px;">Enviar Mail</button>
+</form>

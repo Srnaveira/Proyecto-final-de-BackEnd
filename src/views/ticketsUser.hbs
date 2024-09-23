@@ -1,0 +1,23 @@
+
+<body>
+    <h1>Listado de Tickets</h1>
+    <ul>
+        {{#each tickets}}
+            <li>
+                <strong>Código:</strong> {{this.code}}<br>
+                <strong>Fecha de compra:</strong> {{this.purchase_datetime}}<br>
+                <strong>Monto:</strong> {{this.amount}}<br>
+                {{#each products}}
+                <div style="width: 80%; height: 80%; border: 2px solid #000000; background-color: #ffffffa1; margin: 10px">
+                    <h2>ID: {{this.idP}}</h2>
+                    <p>Precio: ${{this.price}}</p>
+                    <p>Cantidad: {{this.quantity}}</p>
+                </div>
+                {{/each}}
+            </li>
+            <div>
+                <h2>El comprador es: {{this.purchaser}}</h2>
+            </div>
+        {{/each}}
+    </ul>
+</body>

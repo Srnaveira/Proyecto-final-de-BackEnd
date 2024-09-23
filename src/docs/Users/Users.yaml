@@ -1,0 +1,175 @@
+# /src/docs/users.yaml
+
+openapi: 3.0.1
+info:
+  title: "Documentación de Usuarios"
+  description: "Endpoints relacionados con la gestión de usuarios"
+  version: "1.0.0"
+
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+tags:
+  - name: Usuarios
+    description: Operaciones relacionadas con Usurios.
+
+
+paths:
+  /login:
+    get:
+      tags:
+        - Usuarios
+      summary: "Renderiza la vista de login"
+      responses:
+        "200":
+          description: "Vista de login renderizada exitosamente"
+        "404":
+          description: "Problemas al renderizar la vista de login"
+
+  /register:
+    get:
+      tags:
+        - Usuarios
+      summary: "Renderiza la vista de registro"
+      responses:
+        "200":
+          description: "Vista de registro renderizada exitosamente"
+        "404":
+          description: "Problemas al renderizar la vista de registro"
+
+  /current:
+    get:
+      tags:
+        - Usuarios
+      summary: "Renderiza la vista del perfil del usuario actual"
+      responses:
+        "200":
+          description: "Vista del perfil del usuario actual renderizada exitosamente"
+        "404":
+          description: "Problemas al renderizar la vista del perfil"
+
+  /user:
+    get:
+      tags:
+        - Usuarios
+      summary: "Obtiene la información del usuario actual en JSON"
+      responses:
+        "200":
+          description: "Información del usuario obtenida exitosamente"
+        "404":
+          description: "Problemas al obtener la información del usuario"
+
+  /request-password:
+    get:
+      tags:
+        - Usuarios
+      summary: "Renderiza la vista para solicitar el restablecimiento de contraseña"
+      responses:
+        "200":
+          description: "Vista de solicitud de restablecimiento de contraseña renderizada exitosamente"
+        "404":
+          description: "Problemas al renderizar la vista de solicitud de restablecimiento de contraseña"
+
+  /request-password-reset:
+    post:
+      tags:
+        - Usuarios
+      summary: "Solicita el restablecimiento de contraseña"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: "Correo electrónico del usuario que solicita el restablecimiento de contraseña"
+      responses:
+        "200":
+          description: "Correo de restablecimiento de contraseña enviado exitosamente"
+        "404":
+          description: "Usuario no encontrado"
+
+  /reset-password:
+    get:
+      tags:
+        - Usuarios
+      summary: "Renderiza la vista para restablecer la contraseña"
+      parameters:
+        - name: token
+          in: query
+          required: true
+          schema:
+            type: string
+          description: "Token para restablecer la contraseña"
+      responses:
+        "200":
+          description: "Vista de restablecimiento de contraseña renderizada exitosamente"
+        "404":
+          description: "Problemas al renderizar la vista de restablecimiento de contraseña"
+
+    post:
+      tags:
+        - Usuarios
+      summary: "Restablece la contraseña del usuario"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                token:
+                  type: string
+                  description: "Token de restablecimiento de contraseña"
+                newPassword:
+                  type: string
+                  description: "Nueva contraseña"
+      responses:
+        "200":
+          description: "Contraseña restablecida exitosamente"
+        "400":
+          description: "Enlace de restablecimiento inválido o expirado"
+
+  /api/admin/premium:
+    get:
+      tags:
+        - Usuarios
+      summary: "Lista todos los usuarios (admin)"
+      responses:
+        "200":
+          description: "Lista de usuarios obtenida exitosamente"
+        "500":
+          description: "Error al listar usuarios"
+
+  /api/admin/premium/{uid}:
+    post:
+      tags:
+        - Usuarios
+      summary: "Actualiza el rol de un usuario (admin)"
+      parameters:
+        - name: uid
+          in: path
+          required: true
+          schema:
+            type: string
+          description: "ID del usuario"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                newRole:
+                  type: string
+                  description: "Nuevo rol del usuario"
+      responses:
+        "200":
+          description: "Rol del usuario actualizado exitosamente"
+        "400":
+          description: "Rol inválido o no se recibió el rol"
+        "500":
+          description: "Error al actualizar el rol del usuario"

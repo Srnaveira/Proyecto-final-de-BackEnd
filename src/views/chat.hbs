@@ -1,0 +1,28 @@
+<div style="font-family: Arial, sans-serif; background-color: #c2c2c2; margin: 10px; padding: 10px;">
+    <div>
+        <h1>Chat</h1>
+
+        <form style="background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin: 15px;"> 
+            <!-- Mostrar el nombre del usuario logueado -->
+            <div style="padding: 5px;">
+                <label for="nameUser" style="font-weight: bold; margin: 5px">Usuario:</label>
+                <span id="nameUser">{{user.email}}</span>
+            </div>
+            <div style="padding: 5px;">
+                <label for="UserMessage" style="font-weight: bold; margin: 5px">Mensaje:</label>
+                <textarea type="text" id="UserMessage" name="UserMessage" placeholder="Ingresa el mensaje" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 3px;" required></textarea>
+            </div>
+            <div style="padding: 5px;">
+                <input type="submit" value="Enviar Mensaje" id="btn_add" style="padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin: 15px">
+                <input type="reset" value="Limpiar" style="padding: 10px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)">
+            </div>
+        </form>
+    </div>
+
+    <div style="background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin: 15px;">
+        <p id="messageLogs"></p>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

@@ -1,0 +1,211 @@
+openapi: 3.0.1
+info:
+  title: API de Productos, Carrito y Secciones
+  description: API para la gestión de productos, carrito y secciones en la plataforma.
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+tags:
+  - name: Products
+    description: Operaciones relacionadas con productos.
+
+paths:
+  /api/products:
+    get:
+      tags:
+        - Products
+      summary: Obtener productos con filtros
+      description: Obtiene una lista de productos según los filtros aplicados.
+      parameters:
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          description: Número de productos por página
+        - in: query
+          name: page
+          schema:
+            type: integer
+          description: Página a consultar
+        - in: query
+          name: sort
+          schema:
+            type: string
+          description: Ordenar productos por precio (asc o desc)
+        - in: query
+          name: query
+          schema:
+            type: string
+          description: Filtro de búsqueda (por categoría o estado)
+      responses:
+        "200":
+          description: Lista de productos obtenida correctamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProductResponse"
+        "500":
+          description: Error interno del servidor
+    post:
+      tags:
+        - Products
+      summary: Agregar un nuevo producto
+      description: Crea un nuevo producto en la base de datos.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+      responses:
+        "201":
+          description: Producto agregado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "500":
+          description: Error interno del servidor
+
+  /api/products/{pid}:
+    get:
+      tags:
+        - Products
+      summary: Obtener producto por ID
+      description: Obtiene los detalles de un producto por su ID.
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          schema:
+            type: string
+          description: ID del producto a obtener
+      responses:
+        "200":
+          description: Producto encontrado
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+        "404":
+          description: Producto no encontrado
+        "500":
+          description: Error interno del servidor
+    put:
+      tags:
+        - Products
+      summary: Actualizar producto por ID
+      description: Actualiza los detalles de un producto existente.
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          schema:
+            type: string
+          description: ID del producto a actualizar
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Product"
+      responses:
+        "200":
+          description: Producto actualizado correctamente
+        "500":
+          description: Error interno del servidor
+    delete:
+      tags:
+        - Products
+      summary: Eliminar producto por ID
+      description: Elimina un producto de la base de datos por su ID.
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          schema:
+            type: string
+          description: ID del producto a eliminar
+      responses:
+        "200":
+          description: Producto eliminado correctamente
+        "403":
+          description: No tienes permisos para eliminar este producto
+        "404":
+          description: Producto no encontrado
+        "500":
+          description: Error interno del servidor
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        title:
+          type: string
+          example: "Laptop"
+        description:
+          type: string
+          example: "A powerful gaming laptop."
+        price:
+          type: number
+          example: 1200.00
+        thumbnail:
+          type: array
+          items:
+            type: string
+            example: "https://example.com/image.jpg"
+        code:
+          type: string
+          example: "PROD001"
+        owner:
+          type: string
+          example: "admin"
+        status:
+          type: boolean
+          example: true
+        category:
+          type: string
+          example: "Electronics"
+        stock:
+          type: integer
+          example: 50
+    ProductResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: "success"
+        isUser:
+          type: boolean
+          example: true
+        payload:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+        totalPages:
+          type: integer
+          example: 5
+        prevPage:
+          type: integer
+          example: 1
+        nextPage:
+          type: integer
+          example: 3
+        page:
+          type: integer
+          example: 2
+        hasPrevPage:
+          type: boolean
+          example: true
+        hasNextPage:
+          type: boolean
+          example: true
+        prevLink:
+          type: string
+          example: "/api/products?limit=10&page=1"
+        nextLink:
+          type: string
+          example: "/api/products?limit=10&page=3"

@@ -1,0 +1,2199 @@
+[2024-09-09T03:06:50.184Z] info: Ya estamos conectados a la base de datos
+[2024-09-09T03:06:50.217Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-09T03:06:51.696Z] info: Conectado a la base de datos
+[2024-09-09T03:06:59.226Z] info: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:06:59.226Z] error: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:06:59.226Z] warning: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:06:59.226Z] fatal: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:06:59.302Z] info: GET en /login - 9/9/2024
+[2024-09-09T03:06:59.302Z] error: GET en /login - 9/9/2024
+[2024-09-09T03:06:59.302Z] warning: GET en /login - 9/9/2024
+[2024-09-09T03:06:59.302Z] fatal: GET en /login - 9/9/2024
+[2024-09-09T03:07:01.822Z] info: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:01.822Z] error: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:01.822Z] warning: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:01.822Z] fatal: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:01.956Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-09T03:07:01.956Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-09T03:07:02.088Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 'Mon Sep 09 2024 00:01:23 GMT-0300 (hora estándar de Argentina)'
+}
+[2024-09-09T03:07:02.693Z] info: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:02.693Z] error: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:02.693Z] warning: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:02.693Z] fatal: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:03.221Z] info: GET en /user - 9/9/2024
+[2024-09-09T03:07:03.221Z] error: GET en /user - 9/9/2024
+[2024-09-09T03:07:03.221Z] warning: GET en /user - 9/9/2024
+[2024-09-09T03:07:03.222Z] fatal: GET en /user - 9/9/2024
+[2024-09-09T03:07:04.455Z] info: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:04.455Z] error: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:04.455Z] warning: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:04.455Z] fatal: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:04.523Z] info: GET en /login - 9/9/2024
+[2024-09-09T03:07:04.524Z] error: GET en /login - 9/9/2024
+[2024-09-09T03:07:04.524Z] warning: GET en /login - 9/9/2024
+[2024-09-09T03:07:04.524Z] fatal: GET en /login - 9/9/2024
+[2024-09-09T03:07:09.066Z] info: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:09.066Z] error: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:09.066Z] warning: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:09.066Z] fatal: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:09.219Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-09T03:07:09.219Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-09T03:07:09.426Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 'Sun Sep 08 2024 23:59:41 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-09T03:07:09.607Z] info: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:09.607Z] error: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:09.607Z] warning: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:09.607Z] fatal: GET en /api/products/ - 9/9/2024
+[2024-09-09T03:07:10.170Z] info: GET en /user - 9/9/2024
+[2024-09-09T03:07:10.170Z] error: GET en /user - 9/9/2024
+[2024-09-09T03:07:10.170Z] warning: GET en /user - 9/9/2024
+[2024-09-09T03:07:10.170Z] fatal: GET en /user - 9/9/2024
+[2024-09-09T03:07:12.475Z] info: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:12.476Z] error: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:12.476Z] warning: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:12.476Z] fatal: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:12.544Z] info: GET en /login - 9/9/2024
+[2024-09-09T03:07:12.544Z] error: GET en /login - 9/9/2024
+[2024-09-09T03:07:12.544Z] warning: GET en /login - 9/9/2024
+[2024-09-09T03:07:12.544Z] fatal: GET en /login - 9/9/2024
+[2024-09-09T03:07:16.785Z] info: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:16.785Z] error: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:16.785Z] warning: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:16.785Z] fatal: POST en /api/sessions/login - 9/9/2024
+[2024-09-09T03:07:16.916Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-09T03:07:16.916Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-09T03:07:17.037Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sun Sep 08 2024 23:58:51 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-09T03:07:17.223Z] info: GET en /api/admin/realtimeproducts - 9/9/2024
+[2024-09-09T03:07:17.223Z] error: GET en /api/admin/realtimeproducts - 9/9/2024
+[2024-09-09T03:07:17.223Z] warning: GET en /api/admin/realtimeproducts - 9/9/2024
+[2024-09-09T03:07:17.223Z] fatal: GET en /api/admin/realtimeproducts - 9/9/2024
+[2024-09-09T03:07:22.403Z] info: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:22.404Z] error: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:22.404Z] warning: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:22.404Z] fatal: POST en /api/sessions/logout - 9/9/2024
+[2024-09-09T03:07:22.470Z] info: GET en /login - 9/9/2024
+[2024-09-09T03:07:22.470Z] error: GET en /login - 9/9/2024
+[2024-09-09T03:07:22.470Z] warning: GET en /login - 9/9/2024
+[2024-09-09T03:07:22.470Z] fatal: GET en /login - 9/9/2024
+[2024-09-22T01:00:18.812Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:00:18.824Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:00:20.025Z] info: Conectado a la base de datos
+[2024-09-22T01:00:59.047Z] info: GET en / - 21/9/2024
+[2024-09-22T01:00:59.048Z] error: GET en / - 21/9/2024
+[2024-09-22T01:00:59.048Z] warning: GET en / - 21/9/2024
+[2024-09-22T01:00:59.049Z] fatal: GET en / - 21/9/2024
+[2024-09-22T01:01:04.257Z] info: GET en / - 21/9/2024
+[2024-09-22T01:01:04.258Z] error: GET en / - 21/9/2024
+[2024-09-22T01:01:04.258Z] warning: GET en / - 21/9/2024
+[2024-09-22T01:01:04.259Z] fatal: GET en / - 21/9/2024
+[2024-09-22T01:01:16.121Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:01:16.121Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:01:16.121Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:01:16.121Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:01:16.217Z] info: GET en /favicon.ico - 21/9/2024
+[2024-09-22T01:01:16.217Z] error: GET en /favicon.ico - 21/9/2024
+[2024-09-22T01:01:16.217Z] warning: GET en /favicon.ico - 21/9/2024
+[2024-09-22T01:01:16.217Z] fatal: GET en /favicon.ico - 21/9/2024
+[2024-09-22T01:01:18.990Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:01:18.990Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:01:18.990Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:01:18.990Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:01:19.170Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:01:19.170Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:01:19.374Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Mon Sep 09 2024 00:07:16 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:01:20.385Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:01:20.385Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:01:20.385Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:01:20.385Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:01:32.791Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:32.791Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:32.791Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:32.791Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:32.793Z] error: Error al listar usuarios usersServices is not defined
+[2024-09-22T01:01:36.980Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:36.980Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:36.980Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:36.980Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:36.981Z] error: Error al listar usuarios usersServices is not defined
+[2024-09-22T01:01:39.893Z] info: GET en /api/tickets? - 21/9/2024
+[2024-09-22T01:01:39.893Z] error: GET en /api/tickets? - 21/9/2024
+[2024-09-22T01:01:39.893Z] warning: GET en /api/tickets? - 21/9/2024
+[2024-09-22T01:01:39.893Z] fatal: GET en /api/tickets? - 21/9/2024
+[2024-09-22T01:01:43.987Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:43.988Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:43.988Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:43.988Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:01:43.988Z] error: Error al listar usuarios usersServices is not defined
+[2024-09-22T01:02:35.883Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:02:35.893Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:02:37.074Z] info: Conectado a la base de datos
+[2024-09-22T01:02:51.261Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:02:51.261Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:02:51.261Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:02:51.261Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:02:51.356Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:02:51.356Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:02:51.356Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:02:51.357Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:02:53.498Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:02:53.499Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:02:53.499Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:02:53.499Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:02:53.651Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:02:53.652Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:02:53.820Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:01:19 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:02:54.494Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:02:54.494Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:02:54.494Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:02:54.494Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:02:56.988Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:02:56.988Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:02:56.988Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:02:56.988Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:02:56.989Z] error: Error al listar usuarios usersServices is not defined
+[2024-09-22T01:03:53.797Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:03:53.797Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:03:53.797Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:03:53.797Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:03:53.798Z] error: Error al listar usuarios usersServices is not defined
+[2024-09-22T01:05:28.543Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:05:28.554Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:05:30.036Z] info: Conectado a la base de datos
+[2024-09-22T01:05:55.598Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:05:55.598Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:05:55.599Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:05:55.600Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:05:55.698Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:05:55.699Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:05:55.699Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:05:55.699Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:05:57.315Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:05:57.315Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:05:57.315Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:05:57.315Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:05:57.485Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:05:57.485Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:05:57.673Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:02:53 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:05:58.462Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:05:58.462Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:05:58.462Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:05:58.462Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:06:00.008Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:06:00.008Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:06:00.008Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:06:00.008Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:06:00.009Z] info: Conectado al UserServices.js para traer la lista de usuarios...
+[2024-09-22T01:06:00.010Z] info: DENTRO DE LA FUNCION QUE TRAE UN LISTADO COMPLETO DE LOS USUARIOS
+[2024-09-22T01:06:00.089Z] info: Lista de usuarios[
+  {
+    "documentsUploaded": false,
+    "_id": "665c998e058b01ffb59cc91a",
+    "first_name": "Administrator",
+    "last_name": "admin",
+    "email": "admincoder@coder.com",
+    "age": 0,
+    "password": "$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK",
+    "rol": "admin",
+    "__v": 0,
+    "last_connection": "Sat Sep 21 2024 22:05:57 GMT-0300 (hora estándar de Argentina)",
+    "documents": []
+  },
+  {
+    "_id": "6670e7ef128a8297fc5d52c0",
+    "first_name": "Sebastian",
+    "last_name": "Naveira",
+    "email": "srnaveira@gmail.com",
+    "age": 45,
+    "password": "$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO",
+    "rol": "user",
+    "cartId": "6670e7ef128a8297fc5d52be",
+    "__v": 3,
+    "documents": [
+      {
+        "name": "dniFront",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6b8"
+      },
+      {
+        "name": "dniBack",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6b9"
+      },
+      {
+        "name": "selfie",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6ba"
+      }
+    ],
+    "documentsUploaded": true,
+    "last_connection": "Mon Sep 09 2024 00:07:01 GMT-0300 (hora estándar de Argentina)"
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66786d6331e5dae2133d3832",
+    "first_name": "ruben",
+    "last_name": "gianelli",
+    "email": "rubengianelli@mail.com",
+    "age": 24,
+    "password": "$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi",
+    "rol": "user",
+    "cartId": "66786d6331e5dae2133d3830",
+    "__v": 0,
+    "documents": []
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66c228bc3fe6c728e50c6fcc",
+    "first_name": "Armando",
+    "last_name": "Maradona",
+    "email": "armandoMaradona@coderHouse.com",
+    "age": 25,
+    "password": "$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty",
+    "rol": "user",
+    "cartId": "66c228bc3fe6c728e50c6fca",
+    "__v": 0,
+    "last_connection": "Mon Sep 09 2024 00:07:09 GMT-0300 (hora estándar de Argentina)",
+    "documents": []
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66c22f1048af4a7cbfc2fc7e",
+    "first_name": "Leonel",
+    "last_name": "Messi",
+    "email": "leoMessi@coder.com",
+    "age": 36,
+    "password": "$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.",
+    "rol": "user",
+    "cartId": "66c22f0f48af4a7cbfc2fc7c",
+    "__v": 0,
+    "documents": []
+  }
+]
+[2024-09-22T01:06:00.090Z] info: ESTOY DENTRO DEL USERSCONTROLLER PARA TRAER LA LISTA DE USUARIOS
+[2024-09-22T01:06:00.092Z] info: Contenido de la lista de usuarios: {
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:05:57 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+},{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 'Mon Sep 09 2024 00:07:01 GMT-0300 (hora estándar de Argentina)'
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66786d6331e5dae2133d3832'),
+  first_name: 'ruben',
+  last_name: 'gianelli',
+  email: 'rubengianelli@mail.com',
+  age: 24,
+  password: '$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi',
+  rol: 'user',
+  cartId: new ObjectId('66786d6331e5dae2133d3830'),
+  __v: 0,
+  documents: []
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 'Mon Sep 09 2024 00:07:09 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66c22f1048af4a7cbfc2fc7e'),
+  first_name: 'Leonel',
+  last_name: 'Messi',
+  email: 'leoMessi@coder.com',
+  age: 36,
+  password: '$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.',
+  rol: 'user',
+  cartId: new ObjectId('66c22f0f48af4a7cbfc2fc7c'),
+  __v: 0,
+  documents: []
+}
+[2024-09-22T01:08:29.290Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:08:29.301Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:08:30.529Z] info: Conectado a la base de datos
+[2024-09-22T01:09:11.224Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:11.225Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:11.225Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:11.226Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:11.323Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:09:11.324Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:09:11.324Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:09:11.324Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:09:12.514Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:12.514Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:12.514Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:12.514Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:12.673Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:09:12.673Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:09:12.861Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:05:57 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:09:13.660Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:13.660Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:13.660Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:13.660Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:51.654Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:51.654Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:51.654Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:51.655Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:09:51.758Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:09:51.758Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:09:51.758Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:09:51.758Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:09:52.628Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:52.628Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:52.629Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:52.629Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:09:52.773Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:09:52.774Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:09:52.945Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:09:12 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:09:53.214Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:53.214Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:53.215Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:53.215Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:09:54.851Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:09:54.851Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:09:54.851Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:09:54.851Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:11:17.886Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:17.886Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:17.887Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:17.887Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:17.980Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:11:17.981Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:11:17.981Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:11:17.981Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:11:21.660Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:21.660Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:21.660Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:21.660Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:21.817Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:11:21.817Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-22T01:11:21.998Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 'Mon Sep 09 2024 00:07:01 GMT-0300 (hora estándar de Argentina)'
+}
+[2024-09-22T01:11:22.281Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:11:22.281Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:11:22.281Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:11:22.281Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:11:22.889Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:11:22.889Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:11:22.889Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:11:22.889Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:11:24.137Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:24.137Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:24.137Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:24.137Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:11:24.231Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:11:24.231Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:11:24.231Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:11:24.231Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:11:27.958Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:27.958Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:27.958Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:27.958Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:11:28.102Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:11:28.102Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:11:28.273Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 'Sat Sep 21 2024 22:09:52 GMT-0300 (hora estándar de Argentina)',
+  documents: []
+}
+[2024-09-22T01:11:28.538Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:11:28.538Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:11:28.538Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:11:28.538Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:11:29.974Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:11:29.974Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:11:29.974Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:11:29.974Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:16:08.844Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:16:08.855Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:16:10.359Z] info: Conectado a la base de datos
+[2024-09-22T01:16:31.169Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:16:31.169Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:16:31.169Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:16:31.169Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:16:31.271Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:16:31.271Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:16:31.271Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:16:31.272Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:16:32.630Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:16:32.630Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:16:32.630Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:16:32.630Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:16:32.798Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:16:32.799Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:16:33.012Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:11:28.000Z,
+  documents: []
+}
+[2024-09-22T01:16:33.883Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:16:33.883Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:16:33.883Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:16:33.883Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:16:35.999Z] info: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:16:36.000Z] error: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:16:36.000Z] warning: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:16:36.000Z] fatal: GET en /api/admin/premium? - 21/9/2024
+[2024-09-22T01:16:36.000Z] info: Conectado al UserServices.js para traer la lista de usuarios...
+[2024-09-22T01:16:36.000Z] info: DENTRO DE LA FUNCION QUE TRAE UN LISTADO COMPLETO DE LOS USUARIOS
+[2024-09-22T01:16:36.094Z] info: Lista de usuarios[
+  {
+    "documentsUploaded": false,
+    "_id": "665c998e058b01ffb59cc91a",
+    "first_name": "Administrator",
+    "last_name": "admin",
+    "email": "admincoder@coder.com",
+    "age": 0,
+    "password": "$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK",
+    "rol": "admin",
+    "__v": 0,
+    "last_connection": "2024-09-22T01:16:32.799Z",
+    "documents": []
+  },
+  {
+    "_id": "6670e7ef128a8297fc5d52c0",
+    "first_name": "Sebastian",
+    "last_name": "Naveira",
+    "email": "srnaveira@gmail.com",
+    "age": 45,
+    "password": "$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO",
+    "rol": "user",
+    "cartId": "6670e7ef128a8297fc5d52be",
+    "__v": 3,
+    "documents": [
+      {
+        "name": "dniFront",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6b8"
+      },
+      {
+        "name": "dniBack",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6b9"
+      },
+      {
+        "name": "selfie",
+        "reference": "C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png",
+        "_id": "66de26840fdc69d13d01d6ba"
+      }
+    ],
+    "documentsUploaded": true,
+    "last_connection": "2024-09-22T01:11:21.000Z"
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66786d6331e5dae2133d3832",
+    "first_name": "ruben",
+    "last_name": "gianelli",
+    "email": "rubengianelli@mail.com",
+    "age": 24,
+    "password": "$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi",
+    "rol": "user",
+    "cartId": "66786d6331e5dae2133d3830",
+    "__v": 0,
+    "documents": []
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66c228bc3fe6c728e50c6fcc",
+    "first_name": "Armando",
+    "last_name": "Maradona",
+    "email": "armandoMaradona@coderHouse.com",
+    "age": 25,
+    "password": "$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty",
+    "rol": "user",
+    "cartId": "66c228bc3fe6c728e50c6fca",
+    "__v": 0,
+    "last_connection": "2024-09-09T03:07:09.000Z",
+    "documents": []
+  },
+  {
+    "documentsUploaded": false,
+    "_id": "66c22f1048af4a7cbfc2fc7e",
+    "first_name": "Leonel",
+    "last_name": "Messi",
+    "email": "leoMessi@coder.com",
+    "age": 36,
+    "password": "$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.",
+    "rol": "user",
+    "cartId": "66c22f0f48af4a7cbfc2fc7c",
+    "__v": 0,
+    "documents": []
+  }
+]
+[2024-09-22T01:16:36.094Z] info: ESTOY DENTRO DEL USERSCONTROLLER PARA TRAER LA LISTA DE USUARIOS
+[2024-09-22T01:16:36.095Z] info: Contenido de la lista de usuarios: {
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:16:32.799Z,
+  documents: []
+},{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-22T01:11:21.000Z
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66786d6331e5dae2133d3832'),
+  first_name: 'ruben',
+  last_name: 'gianelli',
+  email: 'rubengianelli@mail.com',
+  age: 24,
+  password: '$2b$10$vskRRsm8bhrzibUwtsA6.ORGDdZM10YHZd6PXO3BB.ejo9k1Pl2gi',
+  rol: 'user',
+  cartId: new ObjectId('66786d6331e5dae2133d3830'),
+  __v: 0,
+  documents: []
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-09T03:07:09.000Z,
+  documents: []
+},{
+  documentsUploaded: false,
+  _id: new ObjectId('66c22f1048af4a7cbfc2fc7e'),
+  first_name: 'Leonel',
+  last_name: 'Messi',
+  email: 'leoMessi@coder.com',
+  age: 36,
+  password: '$2b$10$pfyEvXei0m8/JifSTQSEteI/Orn2wTabuwFrVguheMI936nJDezS.',
+  rol: 'user',
+  cartId: new ObjectId('66c22f0f48af4a7cbfc2fc7c'),
+  __v: 0,
+  documents: []
+}
+[2024-09-22T01:16:39.530Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:16:39.530Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:16:39.530Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:16:39.530Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:17:32.508Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:17:32.518Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:17:33.893Z] info: Conectado a la base de datos
+[2024-09-22T01:17:37.180Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:17:37.181Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:17:37.181Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:17:37.181Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:17:37.280Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:17:37.280Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:17:37.280Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:17:37.281Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:17:38.469Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:17:38.469Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:17:38.469Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:17:38.469Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:17:38.622Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:17:38.622Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:17:38.802Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:16:32.799Z,
+  documents: []
+}
+[2024-09-22T01:17:39.541Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:17:39.541Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:17:39.541Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:17:39.541Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:17:40.864Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:17:40.864Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:17:40.864Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:17:40.864Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:18:05.594Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:05.595Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:05.595Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:05.595Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:05.741Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:18:05.741Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:18:05.927Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-09T03:07:09.000Z,
+  documents: []
+}
+[2024-09-22T01:18:06.179Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:06.179Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:06.179Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:06.179Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:06.791Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:06.791Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:06.791Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:06.791Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:10.143Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:10.143Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:10.143Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:10.143Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:10.294Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:18:10.294Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:18:10.505Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-22T01:18:05.741Z,
+  documents: []
+}
+[2024-09-22T01:18:10.846Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:10.847Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:10.847Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:10.847Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:11.668Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:11.668Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:11.668Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:11.668Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:22.797Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:22.797Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:22.797Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:22.797Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:22.984Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:18:22.984Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:18:23.174Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-22T01:18:10.294Z,
+  documents: []
+}
+[2024-09-22T01:18:23.448Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:23.448Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:23.448Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:23.448Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:24.153Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:24.154Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:24.154Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:24.154Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:27.430Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:27.430Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:27.430Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:27.430Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:27.512Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:18:27.512Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:18:27.512Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:18:27.512Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:18:28.792Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:28.792Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:28.792Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:28.792Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:28.950Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:18:28.950Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:18:29.119Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-22T01:18:22.984Z,
+  documents: []
+}
+[2024-09-22T01:18:29.360Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:29.360Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:29.360Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:29.360Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:29.953Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:29.953Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:29.953Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:29.953Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:32.075Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:32.075Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:32.075Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:32.075Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:32.678Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:32.678Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:32.678Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:32.678Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:35.787Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:35.787Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:35.787Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:35.787Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:35.875Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:18:35.875Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:18:35.875Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:18:35.875Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:18:37.078Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:18:37.078Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:18:37.078Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:18:37.078Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:18:38.381Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:38.381Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:38.381Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:38.381Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:18:38.534Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:18:38.534Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:18:38.679Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-22T01:18:28.950Z,
+  documents: []
+}
+[2024-09-22T01:18:38.911Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:38.911Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:38.912Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:38.912Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:18:39.580Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:18:39.580Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:18:39.580Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:18:39.581Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:18:44.489Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:44.490Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:44.490Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:44.490Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:18:44.595Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:18:44.595Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:18:44.595Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:18:44.595Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:19:18.634Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:19:18.644Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:19:20.081Z] info: Conectado a la base de datos
+[2024-09-22T01:19:32.328Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:19:32.329Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:19:32.329Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:19:32.329Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:19:35.283Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:19:35.283Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:19:35.284Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:19:35.284Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:19:35.478Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:19:35.479Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:19:35.658Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:17:38.622Z,
+  documents: []
+}
+[2024-09-22T01:19:36.439Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:19:36.440Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:19:36.440Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:19:36.440Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:19:38.338Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:19:38.338Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:19:38.338Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:19:38.338Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:21:00.042Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:21:00.042Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:21:00.043Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:21:00.043Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:29.822Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:29.822Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:29.823Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:29.823Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:29.823Z] error: Error en GET /api/admin/inactiveusers? - Cannot read properties of undefined (reading 'rol')
+[2024-09-22T01:23:32.826Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:23:32.826Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:23:32.826Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:23:32.826Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:23:32.931Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:23:32.931Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:23:32.931Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:23:32.931Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:23:34.321Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:23:34.321Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:23:34.321Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:23:34.321Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:23:34.477Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:23:34.477Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:23:34.660Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:19:35.479Z,
+  documents: []
+}
+[2024-09-22T01:23:34.937Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:23:34.938Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:23:34.938Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:23:34.938Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:23:36.948Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:36.949Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:36.949Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:23:36.949Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:16.076Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:16.076Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:16.076Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:16.076Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:16.077Z] error: Error en GET /api/admin/inactiveusers? - Cannot read properties of undefined (reading 'rol')
+[2024-09-22T01:25:18.506Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:25:18.506Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:25:18.506Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:25:18.506Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:25:18.586Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:25:18.586Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:25:18.586Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:25:18.586Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:25:19.776Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:25:19.776Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:25:19.776Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:25:19.776Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:25:19.931Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:25:19.931Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:25:20.097Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:23:34.477Z,
+  documents: []
+}
+[2024-09-22T01:25:20.354Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:25:20.354Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:25:20.354Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:25:20.354Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:25:21.425Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:21.425Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:21.425Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:21.426Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:47.254Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:47.254Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:47.254Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:25:47.254Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:26:55.754Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:26:55.755Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:26:55.755Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:26:55.755Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:27:12.548Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:12.548Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:12.548Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:12.548Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:12.641Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:12.641Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:12.641Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:12.642Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:13.597Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:13.597Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:13.597Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:13.597Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:13.762Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:27:13.762Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:27:13.944Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:25:19.931Z,
+  documents: []
+}
+[2024-09-22T01:27:14.211Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:27:14.211Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:27:14.211Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:27:14.211Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:27:16.039Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:27:16.039Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:27:16.039Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:27:16.039Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:27:24.692Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:24.692Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:24.692Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:24.692Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:24.788Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:24.788Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:24.788Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:24.788Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:27.792Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:27.792Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:27.792Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:27.792Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:27.964Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:27:27.964Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-22T01:27:28.150Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-22T01:11:21.000Z
+}
+[2024-09-22T01:27:28.464Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:28.465Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:28.465Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:28.465Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:29.160Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:27:29.160Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:27:29.160Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:27:29.160Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:27:32.463Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:32.463Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:32.463Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:32.463Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:32.653Z] info: GET en /api/products - 21/9/2024
+[2024-09-22T01:27:32.653Z] error: GET en /api/products - 21/9/2024
+[2024-09-22T01:27:32.653Z] warning: GET en /api/products - 21/9/2024
+[2024-09-22T01:27:32.653Z] fatal: GET en /api/products - 21/9/2024
+[2024-09-22T01:27:33.350Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:27:33.350Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:27:33.350Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:27:33.350Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:27:38.900Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:38.900Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:38.900Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:38.900Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:39.006Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:39.006Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:39.006Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:39.006Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:43.144Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:43.144Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:43.144Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:43.144Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:44.440Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:44.440Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:44.441Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:44.441Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:27:47.036Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:47.036Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:47.037Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:47.037Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:27:47.201Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:27:47.201Z] info: el user ID: 66c228bc3fe6c728e50c6fcc
+[2024-09-22T01:27:47.397Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('66c228bc3fe6c728e50c6fcc'),
+  first_name: 'Armando',
+  last_name: 'Maradona',
+  email: 'armandoMaradona@coderHouse.com',
+  age: 25,
+  password: '$2b$10$Jtw2ecCCOPKZmXBg7yQXiePas48s5xdBNVEDNvqe6iHqY.J9hA4ty',
+  rol: 'user',
+  cartId: new ObjectId('66c228bc3fe6c728e50c6fca'),
+  __v: 0,
+  last_connection: 2024-09-21T01:18:38.534Z,
+  documents: []
+}
+[2024-09-22T01:27:47.706Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:47.706Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:47.707Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:47.707Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:48.539Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:27:48.539Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:27:48.539Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:27:48.539Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:27:49.723Z] info: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:49.723Z] error: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:49.723Z] warning: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:49.723Z] fatal: GET en /api/products/ - 21/9/2024
+[2024-09-22T01:27:50.431Z] info: GET en /user - 21/9/2024
+[2024-09-22T01:27:50.431Z] error: GET en /user - 21/9/2024
+[2024-09-22T01:27:50.431Z] warning: GET en /user - 21/9/2024
+[2024-09-22T01:27:50.431Z] fatal: GET en /user - 21/9/2024
+[2024-09-22T01:27:57.102Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:57.102Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:57.103Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:57.103Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:27:57.200Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:27:57.200Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:27:57.200Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:27:57.200Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:28:01.805Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:28:01.805Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:28:01.805Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:28:01.805Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:28:01.989Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:28:01.989Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:28:02.162Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:27:13.762Z,
+  documents: []
+}
+[2024-09-22T01:28:02.439Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:28:02.440Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:28:02.440Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:28:02.440Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:28:04.482Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:28:04.482Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:28:04.482Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:28:04.482Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:28:10.610Z] info: POST en /api/admin/inactiveusers - 21/9/2024
+[2024-09-22T01:28:10.610Z] error: POST en /api/admin/inactiveusers - 21/9/2024
+[2024-09-22T01:28:10.610Z] warning: POST en /api/admin/inactiveusers - 21/9/2024
+[2024-09-22T01:28:10.610Z] fatal: POST en /api/admin/inactiveusers - 21/9/2024
+[2024-09-22T01:28:22.778Z] info: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:22.778Z] error: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:22.778Z] warning: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:22.778Z] fatal: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:31.556Z] info: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:31.556Z] error: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:31.556Z] warning: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:28:31.556Z] fatal: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:31:29.115Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:31:29.115Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:31:29.115Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:31:29.115Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:31:29.208Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:31:29.208Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:31:29.208Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:31:29.208Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:31:30.960Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:31:30.961Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:31:30.961Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:31:30.961Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:31:31.882Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:31:31.882Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:31:31.882Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:31:31.882Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:31:33.395Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:31:33.395Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:31:33.395Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:31:33.395Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:31:34.873Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:31:34.873Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:31:34.873Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:31:34.873Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:31:35.031Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:31:35.031Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:31:35.223Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:28:01.989Z,
+  documents: []
+}
+[2024-09-22T01:31:35.500Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:31:35.500Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:31:35.500Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:31:35.500Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:31:38.750Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:31:38.750Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:31:38.750Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:31:38.750Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:32:13.802Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:32:13.802Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:32:13.802Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:32:13.802Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:32:13.903Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:32:13.903Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:32:13.903Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:32:13.903Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:32:26.166Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:32:26.176Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:32:27.474Z] info: Conectado a la base de datos
+[2024-09-22T01:32:30.016Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.016Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.016Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.016Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.823Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.824Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.824Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:32:30.824Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:32:32.134Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:32:32.134Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:32:32.134Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:32:32.134Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:32:32.296Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:32:32.297Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:32:32.490Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:31:35.031Z,
+  documents: []
+}
+[2024-09-22T01:32:33.298Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:32:33.298Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:32:33.298Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:32:33.298Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:32:34.691Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:32:34.691Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:32:34.691Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:32:34.691Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:32:42.030Z] info: GET en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e?_method=DELETE - 21/9/2024
+[2024-09-22T01:32:42.030Z] error: GET en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e?_method=DELETE - 21/9/2024
+[2024-09-22T01:32:42.030Z] warning: GET en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e?_method=DELETE - 21/9/2024
+[2024-09-22T01:32:42.030Z] fatal: GET en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e?_method=DELETE - 21/9/2024
+[2024-09-22T01:35:38.586Z] info: Ya estamos conectados a la base de datos
+[2024-09-22T01:35:38.604Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-22T01:35:39.924Z] info: Conectado a la base de datos
+[2024-09-22T01:37:43.441Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:37:43.441Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:37:43.441Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:37:43.442Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:37:43.548Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:37:43.548Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:37:43.548Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:37:43.548Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:37:45.457Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:37:45.458Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:37:45.458Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:37:45.458Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.093Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.093Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.093Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.093Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.321Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.321Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.321Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:37:46.321Z] fatal: GET en /login - 21/9/2024
+[2024-09-22T01:37:47.574Z] info: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:37:47.574Z] error: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:37:47.574Z] warning: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:37:47.574Z] fatal: POST en /api/sessions/login - 21/9/2024
+[2024-09-22T01:37:47.747Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-22T01:37:47.747Z] info: el user ID: 665c998e058b01ffb59cc91a
+[2024-09-22T01:37:47.963Z] info: serializeUser{
+  documentsUploaded: false,
+  _id: new ObjectId('665c998e058b01ffb59cc91a'),
+  first_name: 'Administrator',
+  last_name: 'admin',
+  email: 'admincoder@coder.com',
+  age: 0,
+  password: '$2b$10$AIaJZJCB2i2SlXkZUW7t/Oceyzol3/32ckVfNQUIdBfrCylhKr2OK',
+  rol: 'admin',
+  __v: 0,
+  last_connection: 2024-09-22T01:32:32.297Z,
+  documents: []
+}
+[2024-09-22T01:37:49.124Z] info: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:37:49.124Z] error: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:37:49.124Z] warning: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:37:49.124Z] fatal: GET en /api/admin/realtimeproducts - 21/9/2024
+[2024-09-22T01:37:51.657Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:37:51.657Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:37:51.657Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:37:51.657Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:37:53.514Z] info: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:37:53.514Z] error: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:37:53.514Z] warning: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:37:53.514Z] fatal: POST en /api/admin/inactiveusers/66c22f1048af4a7cbfc2fc7e - 21/9/2024
+[2024-09-22T01:37:56.561Z] info: Correo enviado: %s
+[2024-09-22T01:38:10.291Z] info: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:38:10.292Z] error: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:38:10.292Z] warning: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:38:10.292Z] fatal: GET en /api/admin/inactiveusers? - 21/9/2024
+[2024-09-22T01:38:31.216Z] info: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:38:31.217Z] error: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:38:31.217Z] warning: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:38:31.217Z] fatal: POST en /api/sessions/logout - 21/9/2024
+[2024-09-22T01:38:31.313Z] info: GET en /login - 21/9/2024
+[2024-09-22T01:38:31.313Z] error: GET en /login - 21/9/2024
+[2024-09-22T01:38:31.313Z] warning: GET en /login - 21/9/2024
+[2024-09-22T01:38:31.313Z] fatal: GET en /login - 21/9/2024
+[2024-09-23T22:45:14.039Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T22:45:14.063Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T22:45:15.338Z] info: Conectado a la base de datos
+[2024-09-23T22:47:42.968Z] info: GET en /login - 23/9/2024
+[2024-09-23T22:47:42.969Z] error: GET en /login - 23/9/2024
+[2024-09-23T22:47:42.970Z] warning: GET en /login - 23/9/2024
+[2024-09-23T22:47:42.971Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T22:47:44.246Z] info: GET en /favicon.ico - 23/9/2024
+[2024-09-23T22:47:44.246Z] error: GET en /favicon.ico - 23/9/2024
+[2024-09-23T22:47:44.249Z] warning: GET en /favicon.ico - 23/9/2024
+[2024-09-23T22:47:44.252Z] fatal: GET en /favicon.ico - 23/9/2024
+[2024-09-23T22:47:50.572Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T22:47:50.572Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T22:47:50.572Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T22:47:50.572Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T22:47:50.773Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T22:47:50.773Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T22:47:50.990Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-22T01:27:27.964Z
+}
+[2024-09-23T22:47:51.910Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T22:47:51.910Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T22:47:51.910Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T22:47:51.911Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T22:47:52.566Z] info: GET en /user - 23/9/2024
+[2024-09-23T22:47:52.566Z] error: GET en /user - 23/9/2024
+[2024-09-23T22:47:52.566Z] warning: GET en /user - 23/9/2024
+[2024-09-23T22:47:52.566Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T22:48:06.728Z] info: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T22:48:06.729Z] error: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T22:48:06.729Z] warning: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T22:48:06.729Z] fatal: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T22:48:17.344Z] info: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T22:48:17.344Z] error: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T22:48:17.344Z] warning: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T22:48:17.345Z] fatal: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T23:02:19.420Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:02:19.420Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:02:19.420Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:02:19.420Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:02:19.541Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:02:19.541Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:02:19.541Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:02:19.541Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:02:21.218Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:02:21.218Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:02:21.218Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:02:21.218Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:02:21.425Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:02:21.425Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:02:21.652Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T22:47:50.773Z
+}
+[2024-09-23T23:02:22.008Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:22.008Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:22.008Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:22.008Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:22.822Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:02:22.822Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:02:22.822Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:02:22.822Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:02:26.169Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:26.169Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:26.169Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:26.169Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:02:26.861Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:02:26.861Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:02:26.861Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:02:26.861Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:02:31.537Z] info: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T23:02:31.538Z] error: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T23:02:31.538Z] warning: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T23:02:31.538Z] fatal: GET en /current/6670e7ef128a8297fc5d52c0? - 23/9/2024
+[2024-09-23T23:04:07.632Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:04:07.645Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:04:08.801Z] info: Conectado a la base de datos
+[2024-09-23T23:04:19.840Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:04:19.841Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:04:19.841Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:04:19.841Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:04:19.947Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:04:19.947Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:04:19.947Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:04:19.948Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:04:22.655Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:04:22.655Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:04:22.655Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:04:22.655Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:04:22.842Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:04:22.842Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:04:23.037Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:02:21.425Z
+}
+[2024-09-23T23:04:23.811Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:04:23.811Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:04:23.811Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:04:23.811Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:04:24.596Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:04:24.596Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:04:24.596Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:04:24.596Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:12:01.390Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:12:01.391Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:12:01.391Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:12:01.391Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:12:02.183Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:12:02.184Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:12:02.184Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:12:02.184Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:13:32.693Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:13:32.708Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:13:34.105Z] info: Conectado a la base de datos
+[2024-09-23T23:13:46.879Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:13:46.879Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:13:46.880Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:13:46.880Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:13:46.993Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:13:46.994Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:13:46.994Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:13:46.995Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:13:48.301Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:13:48.301Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:13:48.302Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:13:48.302Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:13:48.490Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:13:48.490Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:13:48.698Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:04:22.842Z
+}
+[2024-09-23T23:13:49.529Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:13:49.529Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:13:49.529Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:13:49.529Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:13:50.370Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:13:50.370Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:13:50.370Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:13:50.370Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:13:51.888Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:13:51.888Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:13:51.888Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:13:51.888Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:13:52.229Z] info: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:13:52.229Z] error: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:13:52.229Z] warning: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:13:52.229Z] fatal: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:14:18.275Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:14:18.275Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:14:18.275Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:14:18.276Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:14:18.688Z] info: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:14:18.688Z] error: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:14:18.688Z] warning: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:14:18.688Z] fatal: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:15:04.573Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:15:04.573Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:15:04.573Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:15:04.573Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:15:05.233Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:15:05.233Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:15:05.233Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:15:05.233Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:15:06.401Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:15:06.401Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:15:06.401Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:15:06.401Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:15:06.776Z] info: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:15:06.776Z] error: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:15:06.777Z] warning: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:15:06.777Z] fatal: GET en /js/chat.js - 23/9/2024
+[2024-09-23T23:18:45.157Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:18:45.157Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:18:45.157Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:18:45.157Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:19:04.592Z] info: No se pudo crear el mensaje:
+[2024-09-23T23:19:04.593Z] error: undefined
+[2024-09-23T23:19:04.593Z] info: Parece que hubo algun problemas en la funcion del MessageService al crear el mensaje
+[2024-09-23T23:19:04.593Z] error: undefined
+[2024-09-23T23:19:04.776Z] info: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:04.776Z] error: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:04.776Z] warning: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:04.776Z] fatal: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:12.208Z] info: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:12.208Z] error: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:12.209Z] warning: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:19:12.209Z] fatal: GET en /chat?UserMessage=todo+bien+ustedes - 23/9/2024
+[2024-09-23T23:21:41.729Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:21:41.744Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:21:43.254Z] info: Conectado a la base de datos
+[2024-09-23T23:21:43.837Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:21:43.838Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:21:43.838Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:21:43.839Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:21:43.944Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:21:43.945Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:21:43.945Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:21:43.945Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:21:47.399Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:21:47.399Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:21:47.399Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:21:47.399Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:21:47.584Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:21:47.584Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:21:47.786Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:13:48.491Z
+}
+[2024-09-23T23:21:48.606Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:21:48.607Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:21:48.607Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:21:48.607Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:21:49.440Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:21:49.440Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:21:49.440Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:21:49.440Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:21:51.575Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:21:51.575Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:21:51.575Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:21:51.575Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:18.498Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:24:18.511Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:24:20.211Z] info: Conectado a la base de datos
+[2024-09-23T23:24:26.701Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:24:26.701Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:24:26.701Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:24:26.702Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:24:26.815Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:24:26.815Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:24:26.816Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:24:26.816Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:24:28.189Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:24:28.189Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:24:28.189Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:24:28.189Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:24:28.374Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:24:28.374Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:24:28.561Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:21:47.585Z
+}
+[2024-09-23T23:24:29.348Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:24:29.349Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:24:29.349Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:24:29.349Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:24:30.188Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:24:30.189Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:24:30.189Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:24:30.189Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:24:31.163Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:31.164Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:31.164Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:31.164Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:50.160Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:50.160Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:50.160Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:24:50.160Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:25:53.697Z] info: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:53.697Z] error: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:53.697Z] warning: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:53.697Z] fatal: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:56.813Z] info: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:56.814Z] error: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:56.814Z] warning: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:25:56.814Z] fatal: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:26:00.982Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:26:00.983Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:26:00.983Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:26:00.983Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:28:36.837Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:28:36.851Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:28:38.569Z] info: Conectado a la base de datos
+[2024-09-23T23:28:40.276Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:28:40.276Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:28:40.276Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:28:40.277Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:28:40.392Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:28:40.392Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:28:40.392Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:28:40.393Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:28:42.024Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:42.024Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:42.025Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:42.025Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:42.201Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:28:42.202Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:28:42.399Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:24:28.375Z
+}
+[2024-09-23T23:28:43.213Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:43.214Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:43.214Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:43.214Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:43.518Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:43.518Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:43.519Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:43.519Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:28:43.687Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:28:43.688Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:28:43.868Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:28:42.202Z
+}
+[2024-09-23T23:28:44.139Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:44.139Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:44.139Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:44.139Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:28:44.821Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:28:44.821Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:28:44.821Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:28:44.821Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:28:46.017Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:28:46.017Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:28:46.017Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:28:46.017Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:29:39.785Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:29:39.786Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:29:39.786Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:29:39.786Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:31:02.384Z] info: No se pudo crear el mensaje:
+[2024-09-23T23:31:02.384Z] error: undefined
+[2024-09-23T23:31:02.384Z] info: Parece que hubo algun problemas en la funcion del MessageService al crear el mensaje
+[2024-09-23T23:31:02.385Z] error: undefined
+[2024-09-23T23:31:02.565Z] info: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:02.565Z] error: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:02.565Z] warning: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:02.565Z] fatal: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:10.091Z] info: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:10.092Z] error: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:10.092Z] warning: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:31:10.092Z] fatal: GET en /chat?UserMessage=aaaa - 23/9/2024
+[2024-09-23T23:32:00.681Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:32:00.696Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:32:01.796Z] info: Conectado a la base de datos
+[2024-09-23T23:32:33.679Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:32:33.679Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:32:33.679Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:32:33.680Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:32:33.794Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:32:33.794Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:32:33.794Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:32:33.795Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:32:35.532Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:32:35.532Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:32:35.532Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:32:35.533Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:32:35.719Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:32:35.719Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:32:35.894Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:28:43.688Z
+}
+[2024-09-23T23:32:36.608Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:32:36.608Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:32:36.608Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:32:36.609Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:32:37.319Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:32:37.319Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:32:37.320Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:32:37.320Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:32:38.432Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:32:38.432Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:32:38.432Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:32:38.432Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:35:46.354Z] info: Ya estamos conectados a la base de datos
+[2024-09-23T23:35:46.369Z] info: Aplicación funcionando en el puerto: 8080
+[2024-09-23T23:35:47.532Z] info: Conectado a la base de datos
+[2024-09-23T23:36:02.534Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:36:02.534Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:36:02.534Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:36:02.535Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:36:02.643Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:36:02.644Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:36:02.644Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:36:02.644Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:36:05.041Z] info: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:36:05.041Z] error: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:36:05.041Z] warning: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:36:05.041Z] fatal: POST en /api/sessions/login - 23/9/2024
+[2024-09-23T23:36:05.211Z] info: DENTRO DE LA FUNCION QUE HACE UPDATE DE LAST CONECTION
+[2024-09-23T23:36:05.211Z] info: el user ID: 6670e7ef128a8297fc5d52c0
+[2024-09-23T23:36:05.382Z] info: serializeUser{
+  _id: new ObjectId('6670e7ef128a8297fc5d52c0'),
+  first_name: 'Sebastian',
+  last_name: 'Naveira',
+  email: 'srnaveira@gmail.com',
+  age: 45,
+  password: '$2b$10$vbSLp8GbxztkWB82G8G6auEMYTIhClKxnHYWQ7GBN4QFMj91TAFqO',
+  rol: 'user',
+  cartId: new ObjectId('6670e7ef128a8297fc5d52be'),
+  __v: 3,
+  documents: [
+    {
+      name: 'dniFront',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884422-323880541-dniFront-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b8')
+    },
+    {
+      name: 'dniBack',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884426-755715709-dniBack-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6b9')
+    },
+    {
+      name: 'selfie',
+      reference: 'C:\\Users\\Sebastian Naveira\\Desktop\\Reestructura_de_nuestro_servidor\\src\\uploads\\documents\\6670e7ef128a8297fc5d52c0\\1725834884432-173904031-selfie-Coder_.png',
+      _id: new ObjectId('66de26840fdc69d13d01d6ba')
+    }
+  ],
+  documentsUploaded: true,
+  last_connection: 2024-09-23T23:32:35.720Z
+}
+[2024-09-23T23:36:06.141Z] info: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:36:06.141Z] error: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:36:06.141Z] warning: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:36:06.141Z] fatal: GET en /api/products/ - 23/9/2024
+[2024-09-23T23:36:06.893Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:36:06.893Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:36:06.893Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:36:06.893Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:36:08.064Z] info: GET en /chat? - 23/9/2024
+[2024-09-23T23:36:08.065Z] error: GET en /chat? - 23/9/2024
+[2024-09-23T23:36:08.065Z] warning: GET en /chat? - 23/9/2024
+[2024-09-23T23:36:08.065Z] fatal: GET en /chat? - 23/9/2024
+[2024-09-23T23:36:15.628Z] info: GET en /chat?UserMessage=funco - 23/9/2024
+[2024-09-23T23:36:15.628Z] error: GET en /chat?UserMessage=funco - 23/9/2024
+[2024-09-23T23:36:15.629Z] warning: GET en /chat?UserMessage=funco - 23/9/2024
+[2024-09-23T23:36:15.629Z] fatal: GET en /chat?UserMessage=funco - 23/9/2024
+[2024-09-23T23:36:53.963Z] info: GET en /chat?UserMessage=aaaaaaaa - 23/9/2024
+[2024-09-23T23:36:53.963Z] error: GET en /chat?UserMessage=aaaaaaaa - 23/9/2024
+[2024-09-23T23:36:53.963Z] warning: GET en /chat?UserMessage=aaaaaaaa - 23/9/2024
+[2024-09-23T23:36:53.963Z] fatal: GET en /chat?UserMessage=aaaaaaaa - 23/9/2024
+[2024-09-23T23:37:38.535Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:37:38.536Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:37:38.536Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:37:38.536Z] fatal: GET en /login - 23/9/2024
+[2024-09-23T23:37:38.731Z] info: GET en /api/products - 23/9/2024
+[2024-09-23T23:37:38.731Z] error: GET en /api/products - 23/9/2024
+[2024-09-23T23:37:38.731Z] warning: GET en /api/products - 23/9/2024
+[2024-09-23T23:37:38.731Z] fatal: GET en /api/products - 23/9/2024
+[2024-09-23T23:37:39.455Z] info: GET en /user - 23/9/2024
+[2024-09-23T23:37:39.456Z] error: GET en /user - 23/9/2024
+[2024-09-23T23:37:39.457Z] warning: GET en /user - 23/9/2024
+[2024-09-23T23:37:39.457Z] fatal: GET en /user - 23/9/2024
+[2024-09-23T23:38:12.982Z] info: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T23:38:12.982Z] error: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T23:38:12.982Z] warning: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T23:38:12.982Z] fatal: GET en /api/tickets/srnaveira@gmail.com? - 23/9/2024
+[2024-09-23T23:38:30.237Z] info: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:38:30.237Z] error: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:38:30.237Z] warning: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:38:30.237Z] fatal: POST en /api/sessions/logout - 23/9/2024
+[2024-09-23T23:38:30.340Z] info: GET en /login - 23/9/2024
+[2024-09-23T23:38:30.340Z] error: GET en /login - 23/9/2024
+[2024-09-23T23:38:30.340Z] warning: GET en /login - 23/9/2024
+[2024-09-23T23:38:30.341Z] fatal: GET en /login - 23/9/2024
