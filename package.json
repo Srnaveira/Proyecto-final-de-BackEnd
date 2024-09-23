@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch src/app.js",
+    "start": "node src/app.js",
     "testUsers": "node --no-warnings --loader esm node_modules/mocha/bin/mocha ./src/test/Users.test.mjs",
     "testProducts": "node --no-warnings --loader esm node_modules/mocha/bin/mocha ./src/test/Products.test.mjs",
     "testCarts": "node --no-warnings --loader esm node_modules/mocha/bin/mocha ./src/test/Carts.test.mjs"
