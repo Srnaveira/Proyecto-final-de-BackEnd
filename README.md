@@ -61,16 +61,11 @@ Este es el proyecto final del curso de BackEnd, desarrollado en Node.js. El proy
     ```bash
     npm install
 4. Crea un archivo .env basado en el archivo .env.example con las siguientes variables de entorno:
-    ```bash
-    PORT=3000
-    MONGODB_URI=your_mongodb_uri
-    SECRET_KEY=your_secret_key
-    PERSISTENCE_PRODUCTS=MONGODB
-    PERSISTENCE_CART=MONGODB
+
 5. Inicia el servidor:
     ```bash
     npm start
-El servidor se iniciará en http://localhost:8080.
+El servidor se iniciará en http://localhost:3000.
 
 ## Rutas y Endpoints
  ```bash
